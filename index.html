@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>HT League of Legends</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/styles.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,16 +19,245 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Welcome HT League of Legends Nerds!</h1>
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#topOfPage">HT League of Legends</a>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#topOfPage">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#prevSeasonRosters">2016 Rosters</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- <div class="container"> -->
+		<h1 class="text-center" id="topOfPage">Welcome HT League of Legends Nerds!</h1>
+		<div class="container">
+			<img class="fixed-ratio-resize" src="assets/images/carson-wentz-success-eagles-steelers-jordan-matthews.jpg" alt=""/>
+		</div>
+		<!-- <h3 class="text-center">Countdown to Draft</h3> -->
+		<div class="container">
+			<div class="card text-center">
+				<div class="card-header">
+					2017 Fantasy Football Draft
+				</div> 
+				<div class="card-block">
+					<h4 class="card-title">Countdown to Draft</h4>
+					<h6 class="text-center" id="timerP"></h6>
+				</div>
+			</div>
+		</div>
 
-    <h3>Countdown to Draft</h3>
-    <p id="timerP"></p>
-    
-    <h3>2016 End of Season Rosters</h3>
+			<h3 class="text-center" id="prevSeasonRosters">2016 End of Season Rosters</h3>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-12">
+					<a href="#Krowl_roster" class="list-group-item list-group-item-action text-center">Krowl</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Hutch_roster" class="list-group-item list-group-item-action text-center">Hutch</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Danktron_roster" class="list-group-item list-group-item-action text-center">Danktron</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Ellery_roster" class="list-group-item list-group-item-action text-center">Ellery</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#McGov_roster" class="list-group-item list-group-item-action text-center">McGov</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Joe_roster" class="list-group-item list-group-item-action text-center">Joe</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Burns_roster" class="list-group-item list-group-item-action text-center">Burns</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Flemdog_roster" class="list-group-item list-group-item-action text-center">Flemdog</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Keef_roster" class="list-group-item list-group-item-action text-center">Keef</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Whit_roster" class="list-group-item list-group-item-action text-center">Whit</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#Pete_roster" class="list-group-item list-group-item-action text-center">Pete</a>
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<a href="#AJ_roster" class="list-group-item list-group-item-action text-center">AJ</a>
+				</div>
+			</div>	
+		</div>
+
+		<div class="container">
+			<h4 class="text-center">Krowl</h4>
+			<table class="table" id="Krowl_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Hutch</h4>
+			<table class="table" id="Hutch_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Danktron</h4>
+			<table class="table" id="Danktron_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Ellery</h4>
+			<table class="table" id="Ellery_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">McGov</h4>
+			<table class="table" id="McGov_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Joe</h4>
+			<table class="table" id="Joe_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Burns</h4>
+			<table class="table" id="Burns_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Flemdog</h4>
+			<table class="table" id="Flemdog_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Keef</h4>
+			<table class="table" id="Keef_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Whit</h4>
+			<table class="table" id="Whit_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">Pete</h4>
+			<table class="table" id="Pete_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h4 class="text-center">AJ</h4>
+			<table class="table" id="AJ_roster">
+				<thead class="thead-inverse">
+					<tr>
+						<th>Player</th>
+						<th>Round to Sacrafice</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="scripts/timer.js"></script>
+
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="scripts/main.js"></script>
   </body>
 </html>

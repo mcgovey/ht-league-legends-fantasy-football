@@ -1,0 +1,9 @@
+.fixed-ratio-resize { /* basic responsive img */
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* IE8 */
+}
+
+.container{
+    margin-top: 20px;
+}
