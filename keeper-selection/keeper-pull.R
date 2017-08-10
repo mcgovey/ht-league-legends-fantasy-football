@@ -60,3 +60,5 @@ colnames(leagueMembers) <- c("id", "Member")
 myRoster_Joined <- left_join(myRoster_Joined, leagueMembers, by = c("teamId" = "id"))
 
 myRosterClean <- myRoster_Joined[,c(2,14,19,20,26,27)]
+
+write_csv(myRosterClean, 'data/2016EndingRosters.csv')
